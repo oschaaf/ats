@@ -10,8 +10,6 @@ namespace ATS  {
   public:
     static Configuration * Parse(const char * path);
 
-    bool WhitelistForNocache(const char * address);
-    bool IsNocacheWhitelisted(unsigned long address);
   private:
     explicit Configuration()  {}
 
